@@ -1,0 +1,37 @@
+body {
+    background: #f9f0e1;
+    padding-top: 90px;
+}
+body-sm {
+    padding-top: 130px;
+}
+
+.capa {
+    display: table;
+    width: 100%;
+}
+
+.texto-capa {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.Menu {
+    font-family: Satisfy;
+    background: #f9f0e1;
+
+    z-index: 10;
+}
+
+#menu {
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.menu-imagem {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+

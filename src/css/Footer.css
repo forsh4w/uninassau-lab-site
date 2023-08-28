@@ -1,0 +1,90 @@
+body {
+    background: #f9f0e1;
+}
+
+.social-media-icon {
+    float: right;
+    padding: 20px;
+}
+
+.iconEffect:hover {
+    transform: scale(1.15);
+    transition: transform 0.1s;
+}
+
+div span a {
+    color: #c9c9c2c2;
+}
+div span a:hover {
+    color: #f9f0e1;
+    background: none;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* ========================= modal mapa ======================== */
+
+.modal-title {
+    font-family: Satisfy;
+    font-size: 28px;
+    font-weight: 900;
+    color: #f9f0e1;
+
+    background-color: #121212;
+}
+
+.modal-body {
+    background-color: #f9f0e1;
+}
+
+.modal-footer {
+    font-family: Sanchez;
+    font-size: 28px;
+    font-weight: 900;
+    color: #f9f0e1;
+
+    background-color: #121212;
+}
+
+/* ========================= fonts ======================== */
+
+.footerText {
+    font-family: 'Sanchez', serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 28px;
+    line-height: 1.4;
+    color: #f9f0e1;
+}
+
+.restauranteText {
+    font-family: Satisfy;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.footerTextMinor {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 2;
+    color: #ffffff;
+}
+
+.credits {
+    font-size: 16px;
+}
+
+.bottom {
+    font-size: 12px;
+    padding-right: 24px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.right {
+    float: right;
+}

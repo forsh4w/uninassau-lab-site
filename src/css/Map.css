@@ -1,0 +1,38 @@
+@media (max-width: 991px) {
+    .Endereco {
+        padding-left: 0;
+    }
+}
+
+.Endereco {
+    padding-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-div {
+    overflow: hidden;
+    height: 80%;
+}
+
+.endereco-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.endereco-title {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+.endereco-description {
+    font-family: 'Sanchez';
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+}
