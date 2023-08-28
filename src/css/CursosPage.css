@@ -1,0 +1,59 @@
+/* CursosPage.css */
+
+.courses-page {
+    padding: 40px;
+    text-align: center;
+    background-color: #1d2c29;
+    /* Mesmo verde escuro do tema */
+    color: #ffffff;
+    /* Texto branco */
+    min-height: 100vh;
+    /* Garante que a página ocupe a altura da viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribui o conteúdo verticalmente */
+}
+
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    /* Permite que a lista de cursos cresça para ocupar o espaço disponível */
+}
+
+.course-card {
+    background-color: #203937;
+    /* Verde ainda mais escuro */
+    border: 1px solid #355f55;
+    /* Verde mais claro */
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 280px;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.course-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #95a8a3;
+    /* Cinza claro */
+}
