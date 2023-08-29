@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import BackLink from '../components/BackLink';
+
 import '../css/ForumPage.css'; // Importe o arquivo CSS
 
 const topics = [
@@ -68,6 +70,10 @@ const topics = [
 const ForumPage = () => {
     return (
         <div className="forum-page">
+
+<BackLink to="/" text="Voltar" />
+
+
             <h1>Fóruns de Discussão</h1>
             <div className="topics-list">
                 {topics.map((topic) => (

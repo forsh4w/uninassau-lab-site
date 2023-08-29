@@ -1,5 +1,7 @@
 /* CursosPage.css */
 
+
+
 .courses-page {
     padding: 40px;
     text-align: center;
@@ -14,6 +16,21 @@
     justify-content: space-between;
     /* Distribui o conteúdo verticalmente */
 }
+
+
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2a7f4f;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .back-link svg {
+    margin-right: 5px;
+  }
 
 .courses-list {
     display: flex;

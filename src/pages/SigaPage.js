@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import BackLink from '../components/BackLink';
+
 import '../css/SigaPage.css';
 
 const SigaPage = () => {
@@ -81,6 +83,10 @@ const SigaPage = () => {
 
     return (
         <div className="siga-page">
+
+<BackLink to="/" text="Voltar" />
+
+
             <h1>Sistema Integrado de Gestão Ambiental (SIGA)</h1>
             <table>
                 <thead>

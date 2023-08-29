@@ -1,0 +1,34 @@
+/* Ajuste o tamanho das imagens para telas menores */
+@media (max-width: 768px) {
+    .course-card img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Ajuste o tamanho da tabela para telas menores */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+}
+
+
+/* Ajuste dos links na HomePage para telas pequenas */
+@media (max-width: 768px) {
+    .blocks {
+        flex-direction: column;
+        /* Altera a direção dos blocos para coluna */
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 10px;
+        /* Adiciona espaçamento entre os links */
+    }
+
+    .home-page {
+        height: 100%;
+
+    }
+}

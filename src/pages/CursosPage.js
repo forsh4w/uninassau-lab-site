@@ -1,7 +1,9 @@
 import React from 'react';
+import BackLink from '../components/BackLink';
 import '../css/CursosPage.css';
 
-import testImage from '../assets/teste2.jpg'
+
+import testImage from '../assets/teste2.jpg';
 
 const coursesData = [
   {
@@ -59,6 +61,9 @@ const coursesData = [
 const CursosPage = () => {
   return (
     <div className="courses-page">
+
+<BackLink to="/" text="Voltar" />
+
       <h1>Cursos Disponíveis</h1>
       <div className="courses-list">
         {coursesData.map((course, index) => (

@@ -3,9 +3,8 @@ import { Button } from 'react-bootstrap';
 import 'aos/dist/aos.css';
 import aos from 'aos';
 
-import { Link } from 'react-router';
-
 import '../css/HomePage.css';
+import '../css/responsive.css';
 
 const HomePage = () => {
   useEffect(() => {
