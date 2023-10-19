@@ -1,0 +1,67 @@
+/* ConversaPage.css */
+
+
+
+.conversa-page {
+  min-height: 100vh;
+  background-color: #1d2c29;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.question, .answers {
+  margin-top: 20px;
+}
+
+.question {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #203937; /* Cor de fundo escura do site */
+  border: 1px solid #355f55; /* Cor da borda */
+  border-radius: 5px;
+}
+
+.question h2 {
+  font-size: 20px;
+  color: #95a8a3; /* Cor do texto do título */
+}
+
+.question p {
+  font-size: 16px;
+}
+
+.response {
+  display: flex;
+  margin: 10px 0;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.user-details img {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.response-content {
+  flex: 1;
+  padding: 10px;
+  background-color: #203937; /* Cor de fundo escura do site */
+  border: 1px solid #355f55; /* Cor da borda */
+  border-radius: 5px;
+}
+
+.response-content .response-date {
+  color: #95a8a3; /* Cor do texto de data */
+  font-size: 14px;
+}
