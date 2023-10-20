@@ -72,7 +72,7 @@ const ForumPage = () => {
     return (
         <div className="forum-page">
 
-<BackLink to="/" text="Voltar" />
+            <BackLink to="/" text="Voltar" />
 
 
             <h1>Fóruns de Discussão</h1>

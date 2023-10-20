@@ -26,11 +26,11 @@
     text-decoration: none;
     font-weight: bold;
     align-items: center;
-  }
+}
 
-  .back-link svg {
+.back-link svg {
     margin-right: 5px;
-  }
+}
 
 .courses-list {
     display: flex;

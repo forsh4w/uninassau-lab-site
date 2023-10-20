@@ -15,21 +15,25 @@
 
 }
 
-.question, .answers {
+.question,
+.answers {
   margin-top: 20px;
 }
 
 .question {
   margin-top: 20px;
   padding: 20px;
-  background-color: #203937; /* Cor de fundo escura do site */
-  border: 1px solid #355f55; /* Cor da borda */
+  background-color: #203937;
+  /* Cor de fundo escura do site */
+  border: 1px solid #355f55;
+  /* Cor da borda */
   border-radius: 5px;
 }
 
 .question h2 {
   font-size: 20px;
-  color: #95a8a3; /* Cor do texto do título */
+  color: #95a8a3;
+  /* Cor do texto do título */
 }
 
 .question p {
@@ -56,12 +60,15 @@
 .response-content {
   flex: 1;
   padding: 10px;
-  background-color: #203937; /* Cor de fundo escura do site */
-  border: 1px solid #355f55; /* Cor da borda */
+  background-color: #203937;
+  /* Cor de fundo escura do site */
+  border: 1px solid #355f55;
+  /* Cor da borda */
   border-radius: 5px;
 }
 
 .response-content .response-date {
-  color: #95a8a3; /* Cor do texto de data */
+  color: #95a8a3;
+  /* Cor do texto de data */
   font-size: 14px;
 }

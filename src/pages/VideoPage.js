@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player';
 import BackLink from '../components/BackLink';
 import '../css/responsive.css';
 import '../css/VideoPage.css';
-import videoUrl from '../assets/ibama.webm'
+import videoUrl from '../assets/ibama.webm';
 
 const VideoPage = ({ courseTitle }) => {
   return (
@@ -16,6 +16,6 @@ const VideoPage = ({ courseTitle }) => {
       </div>
     </div>
   );
-}
+};
 
 export default VideoPage;
