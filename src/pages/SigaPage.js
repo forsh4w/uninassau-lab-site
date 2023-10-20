@@ -211,47 +211,48 @@ const SigaPage = () => {
                                 <button onClick={() => addAuto(rowIndex)}>Adicionar Auto</button>
                             </td>
                             <td>
-                            {row.sispass.map((sispass, sispassIndex) => (
-                                <div key={sispassIndex}>
-                                    <input
-                                        type="text"
-                                        value={sispass}
-                                        onChange={(e) => updateMultiLineField(rowIndex, 'sispass', e.target.value, sispassIndex)}
-                                        placeholder="Pássaro"
-                                    />
-                                    <button onClick={() => removeSispass(rowIndex, sispassIndex)}>Remover SISPASS</button>
-                                </div>
-                            ))}
-                            <button onClick={() => addSispass(rowIndex)}>Adicionar SISPASS</button>
-                        </td>
-                        <td>
-                            {row.dof.map((dof, dofIndex) => (
-                                <div key={dofIndex}>
-                                    <input
-                                        type="text"
-                                        value={dof}
-                                        onChange={(e) => updateMultiLineField(rowIndex, 'dof', e.target.value, dofIndex)}
-                                        placeholder="Transação"
-                                    />
-                                    <button onClick={() => removeDof(rowIndex, dofIndex)}>Remover DOF</button>
-                                </div>
-                            ))}
-                            <button onClick={() => addDof(rowIndex)}>Adicionar DOF</button>
-                        </td>
-                        <td>
-                            {row.prevfogo.map((prevfogo, prevfogoIndex) => (
-                                <div key={prevfogoIndex}>
-                                    <input
-                                        type="text"
-                                        value={prevfogo}
-                                        onChange={(e) => updateMultiLineField(rowIndex, 'prevfogo', e.target.value, prevfogoIndex)}
-                                        placeholder="Incêndio"
-                                    />
-                                    <button onClick={() => removePrevfogo(rowIndex, prevfogoIndex)}>Remover PREVFOGO</button>
-                                </div>
-                            ))}
-                            <button onClick={() => addPrevfogo(rowIndex)}>Adicionar PREVFOGO</button>
-                        </td>
+                                {row.sispass.map((sispass, sispassIndex) => (
+                                    <div key={sispassIndex}>
+                                        <input
+                                            type="text"
+                                            value={sispass}
+                                            onChange={(e) => updateMultiLineField(rowIndex, 'sispass', e.target.value, sispassIndex)}
+                                            placeholder="Pássaro"
+                                        />
+                                        <button onClick={() => removeSispass(rowIndex, sispassIndex)}>Remover SISPASS</button>
+                                    </div>
+                                ))}
+                                <button onClick={() => addSispass(rowIndex)}>Adicionar SISPASS</button>
+                            </td>
+                            <td>
+                                {row.dof.map((dof, dofIndex) => (
+                                    <div key={dofIndex}>
+                                        <input
+                                            type="text"
+                                            value={dof}
+                                            onChange={(e) => updateMultiLineField(rowIndex, 'dof', e.target.value, dofIndex)}
+                                            placeholder="Transação"
+                                        />
+                                        <button onClick={() => removeDof(rowIndex, dofIndex)}>Remover DOF</button>
+                                    </div>
+                                ))}
+                                <button onClick={() => addDof(rowIndex)}>Adicionar DOF</button>
+                            </td>
+                            <td>
+                                {row.prevfogo.map((prevfogo, prevfogoIndex) => (
+                                    <div key={prevfogoIndex}>
+                                        <input
+                                            type="text"
+                                            value={prevfogo}
+                                            onChange={(e) => updateMultiLineField(rowIndex, 'prevfogo', e.target.value, prevfogoIndex)}
+                                            placeholder="Incêndio"
+                                        />
+                                        <button onClick={() => removePrevfogo(rowIndex, prevfogoIndex)}>Remover PREVFOGO</button>
+                                    </div>
+                                ))}
+
+                                <button onClick={() => addPrevfogo(rowIndex)}>Adicionar PREVFOGO</button>
+                            </td>
                             <td>
                                 <button onClick={() => removeRow(rowIndex)}>Remover Linha</button>
                             </td>
@@ -260,6 +261,7 @@ const SigaPage = () => {
                 </tbody>
             </table>
             <button onClick={addRow}>Adicionar Linha</button>
+
         </div>
     );
 };

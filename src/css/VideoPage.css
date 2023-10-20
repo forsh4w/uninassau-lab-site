@@ -5,16 +5,18 @@
   font-family: Arial, sans-serif;
   padding: 20px;
   text-align: center;
-  height: 100vh; /* Define a altura da página */
-  margin: 0; /* Remove margens padrão do body */
+  height: 100vh;
+  /* Define a altura da página */
+  margin: 0;
+  /* Remove margens padrão do body */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  }
+}
 
-  .video-container {
-    max-width: 800px;
-    margin: 0 auto;
-  }
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
